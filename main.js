@@ -47,6 +47,8 @@ class IpAddress {
     let firstIpAddress = null;
     let callbackError = null;
 
+    let ipv6Address = null;
+
     // Instantiate an object from the imported class and assign the instance to variable cidr.
     const cidr = new IPCIDR(cidrStr);
     // Initialize options for the toArray() method.
